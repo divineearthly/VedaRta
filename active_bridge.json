@@ -1,0 +1,9 @@
+{
+  "engine": "gemma-4-31b",
+  "quant": "Q4_K_M",
+  "pages_active": "dynamic",
+  "vedic_engines": ["ekadhikena", "antyayor", "nikhilam"],
+  "domain": "krishi_veda",
+  "status": "sovereign_offline",
+  "launched": "2026-05-09T18:25:10Z"
+}

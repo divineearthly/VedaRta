@@ -48,7 +48,7 @@ void sphota_attention(float* Q, float* K, float* V, float* out, int seq, int dim
             local  += Q[i*dim+d] * K[i*dim+d];
             global += Q[i*dim+d] * global_context[d];
         }
-        alignment[i] = tri_nadi(local / sqrtf(dim)) * 0.54f /*SVAYAMBHU_LOCAL*/ + tri_nadi(global / sqrtf(dim)) * 0.46f /*SVAYAMBHU_GLOBAL*/;
+        alignment[i] = tri_nadi(local / sqrtf(dim)) * 0.57f /*SVAYAMBHU_LOCAL*/ + tri_nadi(global / sqrtf(dim)) * 0.43f /*SVAYAMBHU_GLOBAL*/;
     }
     float sum_weights = 0;
     for(int i=0; i<seq; i++) sum_weights += alignment[i];
