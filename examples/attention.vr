@@ -1,0 +1,8 @@
+# Sphota Attention — O(n)
+pranamaya {
+    Q = input("query")
+    K = input("key")
+    V = input("value")
+    attn = sphota(Q, K, V)
+    output(attn)
+}
