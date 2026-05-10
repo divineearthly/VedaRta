@@ -1,16 +1,14 @@
-# 🕉️ VedaRta — Sovereign Vedic AI Framework
+# 🕉️ VedaRta — Sovereign Vedic AI
 
-**Running on 3.4 GB Android phone. No GPU. No cloud.**
+**3.4GB Android phone. No GPU.**
 
 ## Links
-- Code: https://github.com/divineearthly/VedaRta
 - Model: https://huggingface.co/divinesouljoy/VedaRta-0.5B
+- Code: https://github.com/divineearthly/VedaRta
 
 ## Results
-- Sphota Attention: 1308x faster
-- Urdhva Matmul: 10.2x faster
-- Tri-Nadi: Converges (SiLU fails)
-- "Aham Brahmasmi" -> PHI 1.6188
-
-## Quick Start
-git clone https://github.com/divineearthly/VedaRta
+| Algorithm | Speedup |
+|-----------|---------|
+| Sphota | 1308x |
+| Urdhva | 10.2x |
+| Tri-Nadi | Converges |
